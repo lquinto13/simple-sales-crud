@@ -110,10 +110,10 @@ function FoodCard({ food, onOpen, onOpenDelete }) {
 						</h1>
 						<div className='flex flex-row justify-between'>
 							<p className='text-[17px] font-bold text-[#0FB478] mr-2'>
-								Price: {newPrice}
+								Price: P{newPrice}
 							</p>
 
-							<p className='text-[#3C3C4399] text-4 mr-2'>Cost: {newCost}</p>
+							<p className='text-[#3C3C4399] text-4 mr-2'>Cost: P{newCost}</p>
 						</div>
 					</div>
 				</div>
